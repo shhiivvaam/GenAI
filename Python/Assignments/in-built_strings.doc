@@ -1,0 +1,34 @@
+In Built Strings Assignment
+
+Question 1:  What is the purpose of the len() function in Python, and how can it be used with strings?
+
+Answer: The purpose of the len() function in Python is to return the length of the string. 
+        It can be used with strings by passing the string as an argument to the len() function. 
+        For example, len("hello") will return 5, as the string "hello" has 5 characters.
+
+Question 2: How can you concatenate two or more strings in Python, and can you provide an example of string 
+concatenation?
+
+Answer: The + operator can be used to concatenate two or more strings in Python. 
+        For example, "hello" + "world" will result in the string "helloworld".
+    
+Question 3: What is string slicing in Python, and how can you extract a portion of a string using this method?
+
+Answer: The string slicing in Python is a way to extract a portion of a string by specifying a range of indices. 
+        The syntax for string slicing is string[start:end], where start is the starting index and end is the ending index 
+        (not inclusive). For example, "hello"[1:4] will return the string "ell".
+
+Question 4: How can you change the case of a string in Python, and can you provide examples of both making a string 
+all uppercase and all lowercase?
+
+Answer: We can change the case of a string using { upper() and lower() } methods in Python.
+        "Hello".upper() will return "HELLO"
+        "Hello".lower() will return "hello".
+
+Question 5: What does the split() method do in Python, and how can you split a string using a specific delimiter?
+
+Answer: The split() method in Python is used to split a string into a list of substrings based on a delimiter. 
+        By default, the delimiter is a space character. 
+        For example, "hello world".split() will return ['hello', 'world']. 
+        To split a string using a specific delimiter, you can pass the delimiter as an argument to the split() method. 
+        For example, "hello,world".split(",") will return ['hello', 'world'].
