@@ -15,5 +15,7 @@
             "password": "shivam.life2394",
             "connectionTimeout": 30
         }
-    ]
+    ],
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true
 }
