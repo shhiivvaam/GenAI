@@ -1,0 +1,44 @@
+body {
+    background-color: #d3db3e;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #327a81;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+img {
+    border-radius: 50%;
+    height: 60px;
+}
+
+.table-users {
+    border: 1px solid #327a81;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+    max-width: calc(100% - 2rem);
+    margin: 1em auto;
+    overflow: hidden;
+    width: 800px;
+}
+
+table {
+    width: 100%;
+}
+
+table td,
+table th {
+    color: #2b686e;
+    padding: 10px;
+}
+
+
+/* need to complete the remaining css */
