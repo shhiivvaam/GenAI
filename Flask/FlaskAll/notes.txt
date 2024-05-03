@@ -1,0 +1,41 @@
+//  TO START
+    > pip install virtualenv  (remember: run this only from the cmd and only for the first time, if and only is your have previously not installed the virtual environment support { pip install virtualenv})
+    > python -m venv <environment_name>             : to create a virtual environment
+    > <environment_name>\Scripts\activate           : to activate the created virtual environment
+    > pip install flask         and start ...
+
+
+
+// BASIC CODE 
+
+from flask import Flask, redirect, url_for
+
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+    return "Hello World"
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+
+
+
+// TO RUN 
+python app.py
+
+
+
+
+// To create the file for { requirements.txt }
+
+    > pip freeze > requirements.txt               (either run it at the end of the project comepletion to generate all {pip install} or else run this everytime you install some libs)
+
+// To use and do the installs from { requirements.txt }
+
+    > pip install -r requirements.txt
+
+
+
+// TO redirect to some HTML File, remember to create all those pages(HTML pages) inside the folder names { templates } only

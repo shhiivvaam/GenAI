@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- templates login.html -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handling of http : get and post request</title>
+    <style>
+        div {
+            width: 400px;
+            border: 1px solid green;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <!-- { url_for } will route the forms request to appropriate function that user made to hanlde it.  -->
+        <!-- we will Retrieve submitted values of inputs on the backend side using 'name' field of form. -->
+        <h1>HANDLE GET REQUEST</h1>
+        <form method="GET" action="{{ url_for('handle_get') }}">
+            <input type="text" name="username" placeholder="username" />
+            <input type="password" name="password" placeholder="password" />
+            <button type="submit">submit</button>
+        </form>
+    </div>
+    <div>
+        <h1>HANDLE POST REQUEST</h1>
+        <form method="POST" action="{{ url_for('handle_post') }}">
+            <input type="text" name="username" placeholder="username" />
+            <input type="password" name="password" placeholder="password" />
+            <button type="submit">submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
